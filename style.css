@@ -1,0 +1,37 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.pai {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+/* estilizando as classes... */
+/* flex-direction muda a direção */
+/* justify-content muda o local centro, direita e esquerda - atua no eixo principal*/
+/* para alinhar os itens, precisa de altura - atua no eixo secundário */
+/* vh é porcentagem da altura da tela, vw da largura */
